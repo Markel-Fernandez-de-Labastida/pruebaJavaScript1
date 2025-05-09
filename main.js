@@ -8,7 +8,7 @@ Declara una función que acepte una palabra como parámetro y la devuelva con to
 
 /*  He elegido este nombre porque separa los caracteres de la palabra y los pone en mayusculas*/
 const separarCaracteresYAMayusculas = (palabra) => {
-    return palabra.split("").join(" ").toLocaleUpperCase();
+    return palabra.split("").join(" ").toUpperCase();
 }
 
 console.log(separarCaracteresYAMayusculas("Ana"));
